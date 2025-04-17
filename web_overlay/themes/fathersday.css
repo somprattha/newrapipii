@@ -1,0 +1,25 @@
+/* themes/fathersday.css */
+body {
+  background: linear-gradient(to bottom, #e6f2ff, #cce6ff);
+  color: #003366;
+  font-family: 'Kanit', sans-serif;
+}
+#message {
+  font-size: 1.9em;
+  animation: pulse 1.4s ease infinite alternate;
+}
+@keyframes pulse {
+  from { transform: scale(1); }
+  to { transform: scale(1.07); }
+}
+.feather {
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  background: url('https://cdn-icons-png.flaticon.com/512/4140/4140048.png') no-repeat center/cover;
+  animation: float 6s ease-in infinite;
+}
+@keyframes float {
+  from { transform: translateY(100vh); opacity: 1; }
+  to { transform: translateY(-100vh); opacity: 0; }
+}

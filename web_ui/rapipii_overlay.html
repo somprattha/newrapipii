@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Rapipii Overlay</title>
+  <style>
+    body {
+      margin: 0;
+      background: transparent;
+      overflow: hidden;
+      font-family: 'Segoe UI', sans-serif;
+    }
+    #overlay-box {
+      position: absolute;
+      bottom: 5%;
+      left: 50%;
+      transform: translateX(-50%);
+      background: rgba(255, 255, 255, 0.85);
+      border-radius: 20px;
+      padding: 20px 30px;
+      font-size: 28px;
+      color: #333;
+      box-shadow: 0 0 20px rgba(0,0,0,0.2);
+      transition: all 0.3s ease;
+    }
+    .happy { border: 3px solid #ff80c0; }
+    .sad { border: 3px solid #607d8b; }
+    .surprise { border: 3px solid #fdd835; }
+    .angry { border: 3px solid #e53935; }
+    .neutral { border: 3px solid #ccc; }
+  </style>
+</head>
+<body>
+  <div id="overlay-box" class="neutral">...</div>
+
+  <script>
+    const box = document.getElementById('overlay-box');
+    const ws = new WebSocket("ws://localhost:5678");
+
+    ws.onmessage = (event) => {
+      const data = JSON.parse(event.data);
+      if (data.type === "overlay") {
+        const text = data.text || "";
+        const emotion = data.emotion || "neutral";
+        box.textContent = text;
+        box.className = emotion;
+      }
+    };
+  </script>
+</body>
+</html>

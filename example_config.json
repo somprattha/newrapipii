@@ -1,0 +1,13 @@
+{
+  "azure_key": "YOUR_AZURE_KEY_HERE",
+  "azure_region": "eastasia",
+  "use_gTTS_fallback": true,
+  "voice_pitch": 1.0,
+  "voice_rate": 1.0,
+  "default_language": "th",
+  "enable_multilingual_mode": true,
+  "auto_thank_superchat": true,
+  "auto_thank_easydonate": true,
+  "auto_thank_subscriber": true,
+  "chat_memory_enabled": true
+}

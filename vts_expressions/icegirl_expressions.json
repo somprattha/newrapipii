@@ -1,0 +1,21 @@
+{
+  "default": {
+    "happy": "微笑.exp3.json",
+    "sad": "流泪.exp3.json",
+    "angry": "生气.exp3.json",
+    "surprised": "惊讶.exp3.json",
+    "love": "爱心眼.exp3.json",
+    "fan_girl": "星星眼.exp3.json",
+    "pout": "歪嘴→.exp3.json",
+    "pout_left": "←歪嘴.exp3.json",
+    "blush": "脸红.exp3.json",
+    "teary": "流泪.exp3.json",
+    "smirk": "坏笑.exp3.json",
+    "sleepy": "困.exp3.json",
+    "cry_silent": "流泪.exp3.json",
+    "tsundere_blush": "害羞.exp3.json",
+    "jealous": "斜眼.exp3.json",
+    "possessive": "歪嘴→.exp3.json",
+    "super_shy": "害羞+脸红.exp3.json"
+  }
+}

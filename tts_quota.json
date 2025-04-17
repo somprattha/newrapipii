@@ -1,0 +1,8 @@
+{
+  "azure_tts": 0,
+  "google_neural2_tts": 0,
+  "google_wavenet_tts": 0,
+  "google_standard_tts": 0,
+  "gtts_fallback": 0,
+  "edge_fallback": 0
+}

@@ -1,0 +1,22 @@
+{
+  "google_chirp3": {
+    "used": 0,
+    "last_reset": "2025-04"
+  },
+  "azure_tts": {
+    "used": 0,
+    "last_reset": "2025-04"
+  },
+  "google_neural2": {
+    "used": 0,
+    "last_reset": "2025-04"
+  },
+  "edge_tts": {
+    "used": 0,
+    "last_reset": "2025-04"
+  },
+  "gtts": {
+    "used": 0,
+    "last_reset": "2025-04"
+  }
+}

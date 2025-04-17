@@ -1,0 +1,29 @@
+{
+  "th_female_voices": [
+    {
+      "name": "th-TH-PremwadeeNeural",
+      "label": "Premwadee (Thai Female - Native)",
+      "persona_hint": "gentle / housewife"
+    },
+    {
+      "name": "th-TH-NiwatNeural",
+      "label": "Niwat (Thai Male - Native)",
+      "persona_hint": "✖️ (excluded, male)"
+    },
+    {
+      "name": "zh-CN-XiaoxiaoMultilingualNeural",
+      "label": "Xiaoxiao (Multilingual, Cute & Soft)",
+      "persona_hint": "kitten / soft"
+    },
+    {
+      "name": "zh-CN-XiaochenMultilingualNeural",
+      "label": "Xiaochen (Multilingual, Calm & Maid-like)",
+      "persona_hint": "maid / housewife"
+    },
+    {
+      "name": "en-US-AdaMultilingualNeural",
+      "label": "Ada (Multilingual, Elegant & Princess-like)",
+      "persona_hint": "princess / vip"
+    }
+  ]
+}

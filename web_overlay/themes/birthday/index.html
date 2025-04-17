@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      margin: 0;
+      background: transparent;
+      overflow: hidden;
+    }
+    .cake {
+      position: absolute;
+      bottom: 10%;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 40px;
+    }
+    .sparkle {
+      position: absolute;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background: radial-gradient(circle, rgba(255,200,255,0.5) 0%, transparent 70%);
+      animation: pulse 2s infinite;
+    }
+    @keyframes pulse {
+      0% {opacity: 0.3;}
+      50% {opacity: 0.7;}
+      100% {opacity: 0.3;}
+    }
+  </style>
+</head>
+<body>
+  <div class="sparkle"></div>
+  <div class="cake">🎂 สุขสันต์วันเกิด~ 🎉</div>
+</body>
+</html>

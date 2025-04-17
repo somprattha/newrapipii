@@ -1,0 +1,246 @@
+2025-04-17 02:10:13,900 - DEBUG - Using proactor: IocpProactor
+2025-04-17 02:10:13,901 - DEBUG - 🔄 กำลังเชื่อมต่อกับ VTube Studio...
+2025-04-17 02:10:14,952 - DEBUG - = connection is CONNECTING
+2025-04-17 02:10:14,952 - DEBUG - > GET / HTTP/1.1
+2025-04-17 02:10:14,952 - DEBUG - > Host: localhost:8001
+2025-04-17 02:10:14,952 - DEBUG - > Upgrade: websocket
+2025-04-17 02:10:14,952 - DEBUG - > Connection: Upgrade
+2025-04-17 02:10:14,954 - DEBUG - > Sec-WebSocket-Key: NX3M2SZ3wgpTOWzqzHiICQ==
+2025-04-17 02:10:14,954 - DEBUG - > Sec-WebSocket-Version: 13
+2025-04-17 02:10:14,954 - DEBUG - > Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+2025-04-17 02:10:14,954 - DEBUG - > User-Agent: Python/3.10 websockets/15.0.1
+2025-04-17 02:10:14,962 - DEBUG - < HTTP/1.1 101 Switching Protocols
+2025-04-17 02:10:14,962 - DEBUG - < Server: websocket-sharp/1.0
+2025-04-17 02:10:14,962 - DEBUG - < Upgrade: websocket
+2025-04-17 02:10:14,963 - DEBUG - < Connection: Upgrade
+2025-04-17 02:10:14,963 - DEBUG - < Sec-WebSocket-Accept: FF9GO1SKKXXl47L8qYSiQdcqeNE=
+2025-04-17 02:10:14,963 - DEBUG - < Sec-WebSocket-Extensions: permessage-deflate; client_no_context_takeover; server_no_context_takeover
+2025-04-17 02:10:14,963 - DEBUG - = connection is OPEN
+2025-04-17 02:10:14,963 - INFO - ✅ เชื่อมต่อสำเร็จ
+2025-04-17 02:10:14,963 - DEBUG - 🔑 ส่งคำขอ Token...
+2025-04-17 02:10:14,963 - DEBUG - > TEXT '{"apiName": "VTubeStudioPublicAPI", "apiVersion...eveloper": "YourName"}}' [221 bytes]
+2025-04-17 02:10:34,964 - DEBUG - > PING 7d 1b 95 31 [binary, 4 bytes]
+2025-04-17 02:10:34,964 - DEBUG - % sent keepalive ping
+2025-04-17 02:10:34,964 - DEBUG - < PONG 7d 1b 95 31 [binary, 4 bytes]
+2025-04-17 02:10:34,964 - DEBUG - % received keepalive pong
+2025-04-17 02:10:35,838 - DEBUG - < PING '' [0 bytes]
+2025-04-17 02:10:35,838 - DEBUG - > PONG '' [0 bytes]
+2025-04-17 02:10:37,384 - DEBUG - < TEXT '{"apiName":"VTubeStudioPublicAPI","apiVersion":...7bfd1d0ff8c6fb7ce2ee"}}' [272 bytes]
+2025-04-17 02:10:37,384 - INFO - 📥 ได้รับ Token: 177061ec1ebff873258b076d9e7a0ed68fce14982c767bfd1d0ff8c6fb7ce2ee
+2025-04-17 02:10:37,384 - DEBUG - 🔒 ส่งคำขอตรวจสอบสิทธิ์...
+2025-04-17 02:10:37,384 - DEBUG - > TEXT '{"apiName": "VTubeStudioPublicAPI", "apiVersion...7bfd1d0ff8c6fb7ce2ee"}}' [307 bytes]
+2025-04-17 02:10:37,397 - DEBUG - < TEXT '{"apiName":"VTubeStudioPublicAPI","apiVersion":...ion of this session."}}' [285 bytes]
+2025-04-17 02:10:37,397 - INFO - 🎉 ตรวจสอบสิทธิ์สำเร็จ!
+2025-04-17 02:10:37,397 - DEBUG - 🎭 กำลังตั้งค่า Expression: 微笑.exp3.json
+2025-04-17 02:10:37,397 - DEBUG - > TEXT '{"apiName": "VTubeStudioPublicAPI", "apiVersion...json", "active": true}}' [225 bytes]
+2025-04-17 02:10:37,424 - DEBUG - < TEXT '{"apiName":"VTubeStudioPublicAPI","apiVersion":...expression filename."}}' [246 bytes]
+2025-04-17 02:10:37,424 - INFO - 📤 ผลลัพธ์: {"apiName":"VTubeStudioPublicAPI","apiVersion":"1.0","timestamp":1744830637424,"messageType":"APIError","requestID":"80f41b57-0e42-4033-9a16-f1840368acc7","data":{"errorID":651,"message":"No expression found with the given expression filename."}}
+2025-04-17 02:10:37,424 - DEBUG - > CLOSE 1000 (OK) [2 bytes]
+2025-04-17 02:10:37,424 - DEBUG - = connection is CLOSING
+2025-04-17 02:10:37,425 - DEBUG - < CLOSE 1000 (OK) [2 bytes]
+2025-04-17 02:10:37,425 - DEBUG - < EOF
+2025-04-17 02:10:37,425 - DEBUG - > EOF
+2025-04-17 02:10:37,425 - DEBUG - = connection is CLOSED
+2025-04-17 02:10:37,426 - DEBUG - x half-closing TCP connection
+2025-04-17 02:10:37,426 - INFO - 🛑 ปิดการเชื่อมต่อเรียบร้อย
+2025-04-17 02:14:44,282 - DEBUG - Using proactor: IocpProactor
+2025-04-17 02:14:44,284 - DEBUG - 🔄 กำลังเชื่อมต่อกับ VTube Studio...
+2025-04-17 02:14:45,332 - DEBUG - = connection is CONNECTING
+2025-04-17 02:14:45,333 - DEBUG - > GET / HTTP/1.1
+2025-04-17 02:14:45,333 - DEBUG - > Host: localhost:8001
+2025-04-17 02:14:45,333 - DEBUG - > Upgrade: websocket
+2025-04-17 02:14:45,333 - DEBUG - > Connection: Upgrade
+2025-04-17 02:14:45,333 - DEBUG - > Sec-WebSocket-Key: gIuqC7rd7tz/0wlfKvgHwg==
+2025-04-17 02:14:45,333 - DEBUG - > Sec-WebSocket-Version: 13
+2025-04-17 02:14:45,333 - DEBUG - > Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+2025-04-17 02:14:45,333 - DEBUG - > User-Agent: Python/3.10 websockets/15.0.1
+2025-04-17 02:14:45,334 - DEBUG - < HTTP/1.1 101 Switching Protocols
+2025-04-17 02:14:45,334 - DEBUG - < Server: websocket-sharp/1.0
+2025-04-17 02:14:45,334 - DEBUG - < Upgrade: websocket
+2025-04-17 02:14:45,334 - DEBUG - < Connection: Upgrade
+2025-04-17 02:14:45,335 - DEBUG - < Sec-WebSocket-Accept: Ifs+GLq0jMizZQtrDuhqyPYtKBw=
+2025-04-17 02:14:45,335 - DEBUG - < Sec-WebSocket-Extensions: permessage-deflate; client_no_context_takeover; server_no_context_takeover
+2025-04-17 02:14:45,335 - DEBUG - = connection is OPEN
+2025-04-17 02:14:45,335 - INFO - ✅ เชื่อมต่อสำเร็จ
+2025-04-17 02:14:45,335 - DEBUG - 🔒 ส่งคำขอตรวจสอบสิทธิ์...
+2025-04-17 02:14:45,335 - DEBUG - > TEXT '{"apiName": "VTubeStudioPublicAPI", "apiVersion...8cf5d0f6b18b70099755"}}' [307 bytes]
+2025-04-17 02:14:45,354 - DEBUG - < TEXT '{"apiName":"VTubeStudioPublicAPI","apiVersion":...revoked by the user."}}' [299 bytes]
+2025-04-17 02:14:45,354 - ERROR - ❌ ตรวจสอบสิทธิ์ล้มเหลว
+2025-04-17 02:14:45,354 - ERROR - ❌ ไม่สามารถดำเนินการต่อได้
+2025-04-17 02:14:45,354 - DEBUG - > CLOSE 1000 (OK) [2 bytes]
+2025-04-17 02:14:45,354 - DEBUG - = connection is CLOSING
+2025-04-17 02:14:45,355 - DEBUG - < CLOSE 1000 (OK) [2 bytes]
+2025-04-17 02:14:45,355 - DEBUG - < EOF
+2025-04-17 02:14:45,355 - DEBUG - > EOF
+2025-04-17 02:14:45,355 - DEBUG - = connection is CLOSED
+2025-04-17 02:14:45,355 - DEBUG - x half-closing TCP connection
+2025-04-17 02:14:45,356 - INFO - 🛑 ปิดการเชื่อมต่อเรียบร้อย
+2025-04-17 02:19:20,896 - DEBUG - Using proactor: IocpProactor
+2025-04-17 02:19:20,896 - DEBUG - 🔄 กำลังเชื่อมต่อกับ VTube Studio...
+2025-04-17 02:19:21,949 - DEBUG - = connection is CONNECTING
+2025-04-17 02:19:21,949 - DEBUG - > GET / HTTP/1.1
+2025-04-17 02:19:21,949 - DEBUG - > Host: localhost:8001
+2025-04-17 02:19:21,949 - DEBUG - > Upgrade: websocket
+2025-04-17 02:19:21,949 - DEBUG - > Connection: Upgrade
+2025-04-17 02:19:21,949 - DEBUG - > Sec-WebSocket-Key: 1Gd9E+fiWTpaklVFrzQ4Wg==
+2025-04-17 02:19:21,949 - DEBUG - > Sec-WebSocket-Version: 13
+2025-04-17 02:19:21,949 - DEBUG - > Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+2025-04-17 02:19:21,949 - DEBUG - > User-Agent: Python/3.10 websockets/15.0.1
+2025-04-17 02:19:21,951 - DEBUG - < HTTP/1.1 101 Switching Protocols
+2025-04-17 02:19:21,951 - DEBUG - < Server: websocket-sharp/1.0
+2025-04-17 02:19:21,951 - DEBUG - < Upgrade: websocket
+2025-04-17 02:19:21,951 - DEBUG - < Connection: Upgrade
+2025-04-17 02:19:21,951 - DEBUG - < Sec-WebSocket-Accept: 3EW/g0QrU3lhv8pFMtiSESfVVoc=
+2025-04-17 02:19:21,951 - DEBUG - < Sec-WebSocket-Extensions: permessage-deflate; client_no_context_takeover; server_no_context_takeover
+2025-04-17 02:19:21,951 - DEBUG - = connection is OPEN
+2025-04-17 02:19:21,951 - INFO - ✅ เชื่อมต่อสำเร็จ
+2025-04-17 02:19:21,952 - DEBUG - 🔒 ส่งคำขอตรวจสอบสิทธิ์...
+2025-04-17 02:19:21,952 - DEBUG - > TEXT '{"apiName": "VTubeStudioPublicAPI", "apiVersion...8cf5d0f6b18b70099755"}}' [307 bytes]
+2025-04-17 02:19:21,968 - DEBUG - < TEXT '{"apiName":"VTubeStudioPublicAPI","apiVersion":...revoked by the user."}}' [299 bytes]
+2025-04-17 02:19:21,968 - ERROR - ❌ ตรวจสอบสิทธิ์ล้มเหลว
+2025-04-17 02:19:21,968 - ERROR - ❌ ไม่สามารถดำเนินการต่อได้
+2025-04-17 02:19:21,968 - DEBUG - > CLOSE 1000 (OK) [2 bytes]
+2025-04-17 02:19:21,968 - DEBUG - = connection is CLOSING
+2025-04-17 02:19:21,969 - DEBUG - < CLOSE 1000 (OK) [2 bytes]
+2025-04-17 02:19:21,969 - DEBUG - < EOF
+2025-04-17 02:19:21,969 - DEBUG - > EOF
+2025-04-17 02:19:21,969 - DEBUG - = connection is CLOSED
+2025-04-17 02:19:21,969 - DEBUG - x half-closing TCP connection
+2025-04-17 02:19:21,969 - INFO - 🛑 ปิดการเชื่อมต่อเรียบร้อย
+2025-04-17 02:22:22,036 - DEBUG - Using proactor: IocpProactor
+2025-04-17 02:22:22,038 - DEBUG - 🔄 กำลังเชื่อมต่อกับ VTube Studio...
+2025-04-17 02:22:23,088 - DEBUG - = connection is CONNECTING
+2025-04-17 02:22:23,088 - DEBUG - > GET / HTTP/1.1
+2025-04-17 02:22:23,088 - DEBUG - > Host: localhost:8001
+2025-04-17 02:22:23,090 - DEBUG - > Upgrade: websocket
+2025-04-17 02:22:23,090 - DEBUG - > Connection: Upgrade
+2025-04-17 02:22:23,090 - DEBUG - > Sec-WebSocket-Key: 2LqRpWcXKP1UjmN62Qcd+Q==
+2025-04-17 02:22:23,090 - DEBUG - > Sec-WebSocket-Version: 13
+2025-04-17 02:22:23,090 - DEBUG - > Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+2025-04-17 02:22:23,090 - DEBUG - > User-Agent: Python/3.10 websockets/15.0.1
+2025-04-17 02:22:23,091 - DEBUG - < HTTP/1.1 101 Switching Protocols
+2025-04-17 02:22:23,091 - DEBUG - < Server: websocket-sharp/1.0
+2025-04-17 02:22:23,091 - DEBUG - < Upgrade: websocket
+2025-04-17 02:22:23,091 - DEBUG - < Connection: Upgrade
+2025-04-17 02:22:23,091 - DEBUG - < Sec-WebSocket-Accept: jH2W5lI1Yzsl3JwmtVjYmv43vq4=
+2025-04-17 02:22:23,092 - DEBUG - < Sec-WebSocket-Extensions: permessage-deflate; client_no_context_takeover; server_no_context_takeover
+2025-04-17 02:22:23,092 - DEBUG - = connection is OPEN
+2025-04-17 02:22:23,092 - INFO - ✅ เชื่อมต่อสำเร็จ
+2025-04-17 02:22:23,092 - DEBUG - 🔒 ส่งคำขอตรวจสอบสิทธิ์...
+2025-04-17 02:22:23,092 - DEBUG - > TEXT '{"apiName": "VTubeStudioPublicAPI", "apiVersion...8cf5d0f6b18b70099755"}}' [307 bytes]
+2025-04-17 02:22:23,103 - DEBUG - < TEXT '{"apiName":"VTubeStudioPublicAPI","apiVersion":...revoked by the user."}}' [299 bytes]
+2025-04-17 02:22:23,103 - ERROR - ❌ ตรวจสอบสิทธิ์ล้มเหลว
+2025-04-17 02:22:23,103 - ERROR - ❌ ไม่สามารถดำเนินการต่อได้
+2025-04-17 02:22:23,103 - DEBUG - > CLOSE 1000 (OK) [2 bytes]
+2025-04-17 02:22:23,103 - DEBUG - = connection is CLOSING
+2025-04-17 02:22:23,104 - DEBUG - < CLOSE 1000 (OK) [2 bytes]
+2025-04-17 02:22:23,104 - DEBUG - < EOF
+2025-04-17 02:22:23,104 - DEBUG - > EOF
+2025-04-17 02:22:23,104 - DEBUG - = connection is CLOSED
+2025-04-17 02:22:23,104 - DEBUG - x half-closing TCP connection
+2025-04-17 02:22:23,104 - INFO - 🛑 ปิดการเชื่อมต่อเรียบร้อย
+2025-04-17 02:28:18,118 - DEBUG - Using proactor: IocpProactor
+2025-04-17 02:28:18,119 - DEBUG - 🔄 กำลังเชื่อมต่อกับ VTube Studio...
+2025-04-17 02:28:19,167 - DEBUG - = connection is CONNECTING
+2025-04-17 02:28:19,168 - DEBUG - > GET / HTTP/1.1
+2025-04-17 02:28:19,168 - DEBUG - > Host: localhost:8001
+2025-04-17 02:28:19,168 - DEBUG - > Upgrade: websocket
+2025-04-17 02:28:19,168 - DEBUG - > Connection: Upgrade
+2025-04-17 02:28:19,168 - DEBUG - > Sec-WebSocket-Key: GYgbpvdh5ly9jocI0DT2cw==
+2025-04-17 02:28:19,168 - DEBUG - > Sec-WebSocket-Version: 13
+2025-04-17 02:28:19,168 - DEBUG - > Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+2025-04-17 02:28:19,168 - DEBUG - > User-Agent: Python/3.10 websockets/15.0.1
+2025-04-17 02:28:19,169 - DEBUG - < HTTP/1.1 101 Switching Protocols
+2025-04-17 02:28:19,170 - DEBUG - < Server: websocket-sharp/1.0
+2025-04-17 02:28:19,170 - DEBUG - < Upgrade: websocket
+2025-04-17 02:28:19,170 - DEBUG - < Connection: Upgrade
+2025-04-17 02:28:19,170 - DEBUG - < Sec-WebSocket-Accept: EMz4BOu0w8tB00nMl87UEKeGiUA=
+2025-04-17 02:28:19,170 - DEBUG - < Sec-WebSocket-Extensions: permessage-deflate; client_no_context_takeover; server_no_context_takeover
+2025-04-17 02:28:19,170 - DEBUG - = connection is OPEN
+2025-04-17 02:28:19,170 - INFO - ✅ เชื่อมต่อสำเร็จ
+2025-04-17 02:28:19,170 - DEBUG - 🔒 ส่งคำขอตรวจสอบสิทธิ์...
+2025-04-17 02:28:19,170 - DEBUG - > TEXT '{"apiName": "VTubeStudioPublicAPI", "apiVersion...8cf5d0f6b18b70099755"}}' [307 bytes]
+2025-04-17 02:28:19,177 - DEBUG - < TEXT '{"apiName":"VTubeStudioPublicAPI","apiVersion":...revoked by the user."}}' [299 bytes]
+2025-04-17 02:28:19,179 - ERROR - ❌ ตรวจสอบสิทธิ์ล้มเหลว
+2025-04-17 02:28:19,179 - ERROR - ❌ ไม่สามารถดำเนินการต่อได้
+2025-04-17 02:28:19,179 - DEBUG - > CLOSE 1000 (OK) [2 bytes]
+2025-04-17 02:28:19,179 - DEBUG - = connection is CLOSING
+2025-04-17 02:28:19,179 - DEBUG - < CLOSE 1000 (OK) [2 bytes]
+2025-04-17 02:28:19,179 - DEBUG - < EOF
+2025-04-17 02:28:19,179 - DEBUG - > EOF
+2025-04-17 02:28:19,179 - DEBUG - = connection is CLOSED
+2025-04-17 02:28:19,180 - DEBUG - x half-closing TCP connection
+2025-04-17 02:28:19,180 - INFO - 🛑 ปิดการเชื่อมต่อเรียบร้อย
+2025-04-17 02:34:02,240 - DEBUG - Using proactor: IocpProactor
+2025-04-17 02:34:02,241 - DEBUG - 🔄 กำลังเชื่อมต่อกับ VTube Studio...
+2025-04-17 02:34:03,293 - DEBUG - = connection is CONNECTING
+2025-04-17 02:34:03,294 - DEBUG - > GET / HTTP/1.1
+2025-04-17 02:34:03,294 - DEBUG - > Host: localhost:8001
+2025-04-17 02:34:03,294 - DEBUG - > Upgrade: websocket
+2025-04-17 02:34:03,294 - DEBUG - > Connection: Upgrade
+2025-04-17 02:34:03,294 - DEBUG - > Sec-WebSocket-Key: JaxpvisjqrotEfnnsTpspg==
+2025-04-17 02:34:03,294 - DEBUG - > Sec-WebSocket-Version: 13
+2025-04-17 02:34:03,294 - DEBUG - > Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+2025-04-17 02:34:03,294 - DEBUG - > User-Agent: Python/3.10 websockets/15.0.1
+2025-04-17 02:34:03,295 - DEBUG - < HTTP/1.1 101 Switching Protocols
+2025-04-17 02:34:03,295 - DEBUG - < Server: websocket-sharp/1.0
+2025-04-17 02:34:03,295 - DEBUG - < Upgrade: websocket
+2025-04-17 02:34:03,295 - DEBUG - < Connection: Upgrade
+2025-04-17 02:34:03,295 - DEBUG - < Sec-WebSocket-Accept: ZqWDLJVm0eRiMVRtvKu74WJ1rNk=
+2025-04-17 02:34:03,295 - DEBUG - < Sec-WebSocket-Extensions: permessage-deflate; client_no_context_takeover; server_no_context_takeover
+2025-04-17 02:34:03,295 - DEBUG - = connection is OPEN
+2025-04-17 02:34:03,295 - INFO - ✅ เชื่อมต่อสำเร็จ
+2025-04-17 02:34:03,295 - DEBUG - 🔑 ส่งคำขอ Token...
+2025-04-17 02:34:03,295 - DEBUG - > TEXT '{"apiName": "VTubeStudioPublicAPI", "apiVersion...eveloper": "YourName"}}' [221 bytes]
+2025-04-17 02:34:08,886 - DEBUG - < TEXT '{"apiName":"VTubeStudioPublicAPI","apiVersion":...8258226b54f16ce167e3"}}' [272 bytes]
+2025-04-17 02:34:08,886 - DEBUG - 📥 คำตอบ Token ดิบ: {"apiName":"VTubeStudioPublicAPI","apiVersion":"1.0","timestamp":1744832048873,"messageType":"AuthenticationTokenResponse","requestID":"320cc7de-6015-4b97-b744-e6c62dd65495","data":{"authenticationToken":"4dcd87630b0d66983c7bf17f24c3c6a0c07c685832088258226b54f16ce167e3"}}
+2025-04-17 02:34:08,886 - INFO - 🔐 ได้รับ Token ใหม่เรียบร้อย
+2025-04-17 02:34:08,888 - DEBUG - 🔒 ส่งคำขอตรวจสอบสิทธิ์...
+2025-04-17 02:34:08,888 - DEBUG - > TEXT '{"apiName": "VTubeStudioPublicAPI", "apiVersion...8258226b54f16ce167e3"}}' [307 bytes]
+2025-04-17 02:34:08,901 - DEBUG - < TEXT '{"apiName":"VTubeStudioPublicAPI","apiVersion":...ion of this session."}}' [285 bytes]
+2025-04-17 02:34:08,901 - INFO - 🎉 ตรวจสอบสิทธิ์สำเร็จ!
+2025-04-17 02:34:08,901 - DEBUG - 🎭 กำลังตั้งค่า Expression: 微笑.exp3.json
+2025-04-17 02:34:08,901 - DEBUG - > TEXT '{"apiName": "VTubeStudioPublicAPI", "apiVersion...json", "active": true}}' [225 bytes]
+2025-04-17 02:34:08,918 - DEBUG - < TEXT '{"apiName":"VTubeStudioPublicAPI","apiVersion":...expression filename."}}' [246 bytes]
+2025-04-17 02:34:08,919 - INFO - 📤 ผลลัพธ์: {"apiName":"VTubeStudioPublicAPI","apiVersion":"1.0","timestamp":1744832048917,"messageType":"APIError","requestID":"886aa19c-36af-48db-900e-b32b27b98f00","data":{"errorID":651,"message":"No expression found with the given expression filename."}}
+2025-04-17 02:34:08,919 - DEBUG - > CLOSE 1000 (OK) [2 bytes]
+2025-04-17 02:34:08,919 - DEBUG - = connection is CLOSING
+2025-04-17 02:34:08,919 - DEBUG - < CLOSE 1000 (OK) [2 bytes]
+2025-04-17 02:34:08,919 - DEBUG - < EOF
+2025-04-17 02:34:08,919 - DEBUG - > EOF
+2025-04-17 02:34:08,919 - DEBUG - = connection is CLOSED
+2025-04-17 02:34:08,919 - DEBUG - x half-closing TCP connection
+2025-04-17 02:34:08,920 - INFO - 🛑 ปิดการเชื่อมต่อเรียบร้อย
+2025-04-17 02:41:08,884 - DEBUG - Using proactor: IocpProactor
+2025-04-17 02:41:08,884 - DEBUG - 🔄 กำลังเชื่อมต่อกับ VTube Studio...
+2025-04-17 02:41:09,934 - DEBUG - = connection is CONNECTING
+2025-04-17 02:41:09,935 - DEBUG - > GET / HTTP/1.1
+2025-04-17 02:41:09,935 - DEBUG - > Host: localhost:8001
+2025-04-17 02:41:09,935 - DEBUG - > Upgrade: websocket
+2025-04-17 02:41:09,935 - DEBUG - > Connection: Upgrade
+2025-04-17 02:41:09,935 - DEBUG - > Sec-WebSocket-Key: XCw/qK8oztO9TDXS0sydZQ==
+2025-04-17 02:41:09,935 - DEBUG - > Sec-WebSocket-Version: 13
+2025-04-17 02:41:09,935 - DEBUG - > Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+2025-04-17 02:41:09,935 - DEBUG - > User-Agent: Python/3.10 websockets/15.0.1
+2025-04-17 02:41:09,936 - DEBUG - < HTTP/1.1 101 Switching Protocols
+2025-04-17 02:41:09,936 - DEBUG - < Server: websocket-sharp/1.0
+2025-04-17 02:41:09,936 - DEBUG - < Upgrade: websocket
+2025-04-17 02:41:09,937 - DEBUG - < Connection: Upgrade
+2025-04-17 02:41:09,937 - DEBUG - < Sec-WebSocket-Accept: qbizt7RS5fHn5+TQblCswzlKaw0=
+2025-04-17 02:41:09,937 - DEBUG - < Sec-WebSocket-Extensions: permessage-deflate; client_no_context_takeover; server_no_context_takeover
+2025-04-17 02:41:09,937 - DEBUG - = connection is OPEN
+2025-04-17 02:41:09,937 - INFO - ✅ เชื่อมต่อสำเร็จ
+2025-04-17 02:41:09,946 - DEBUG - > TEXT '{"apiName": "VTubeStudioPublicAPI", "apiVersion...8258226b54f16ce167e3"}}' [307 bytes]
+2025-04-17 02:41:09,955 - DEBUG - < TEXT '{"apiName":"VTubeStudioPublicAPI","apiVersion":...ion of this session."}}' [285 bytes]
+2025-04-17 02:41:09,955 - DEBUG - 🎭 ตั้งค่า Expression: 微笑.exp3.json
+2025-04-17 02:41:09,955 - DEBUG - > TEXT '{"apiName": "VTubeStudioPublicAPI", "apiVersion...json", "active": true}}' [225 bytes]
+2025-04-17 02:41:09,971 - DEBUG - < TEXT '{"apiName":"VTubeStudioPublicAPI","apiVersion":...expression filename."}}' [246 bytes]
+2025-04-17 02:41:09,971 - INFO - 📤 คำตอบ: {"apiName":"VTubeStudioPublicAPI","apiVersion":"1.0","timestamp":1744832469970,"messageType":"APIError","requestID":"1dc27181-1076-4168-ba02-ea65cf0bf065","data":{"errorID":651,"message":"No expression found with the given expression filename."}}
+2025-04-17 02:41:09,971 - DEBUG - > CLOSE 1000 (OK) [2 bytes]
+2025-04-17 02:41:09,971 - DEBUG - = connection is CLOSING
+2025-04-17 02:41:09,972 - DEBUG - < CLOSE 1000 (OK) [2 bytes]
+2025-04-17 02:41:09,972 - DEBUG - < EOF
+2025-04-17 02:41:09,972 - DEBUG - > EOF
+2025-04-17 02:41:09,972 - DEBUG - = connection is CLOSED
+2025-04-17 02:41:09,972 - DEBUG - x half-closing TCP connection
+2025-04-17 02:41:09,972 - INFO - 🛑 ปิดการเชื่อมต่อเรียบร้อย

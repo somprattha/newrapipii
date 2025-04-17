@@ -1,0 +1,4 @@
+วิธีใช้งานระบบ RapipiiAI:
+1. เลือก voice model และปรับแต่งเสียงได้ในไฟล์ config.json
+2. ปรับ pitch, rate และ style ได้ตามต้องการ
+3. สำหรับ advanced user สามารถเพิ่ม voice model ใหม่ในระบบได้

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Rapipii Themed Overlay</title>
+  <style>
+    body {
+      margin: 0;
+      background: transparent;
+      overflow: hidden;
+      font-family: 'Kanit', sans-serif;
+    }
+
+    #overlay-box {
+      position: absolute;
+      top: 40%;
+      left: 50%;
+      transform: translate(-50%, -50%) scale(0.9);
+      padding: 25px 40px;
+      border-radius: 30px;
+      font-size: 2em;
+      text-align: center;
+      opacity: 0;
+      transition: all 0.5s ease;
+      box-shadow: 0 0 30px rgba(0,0,0,0.3);
+    }
+
+    .show {
+      opacity: 1;
+      transform: translate(-50%, -50%) scale(1);
+    }
+
+    /* Emotion themes */
+    .happy {
+      background: rgba(255, 240, 245, 0.95);
+      border: 3px solid #ff80c0;
+      color: #c2185b;
+      box-shadow: 0 0 30px #ffc1e3;
+    }
+
+    .sad {
+      background: rgba(230, 240, 255, 0.95);
+      border: 3px solid #607d8b;
+      color: #37474f;
+      box-shadow: 0 0 30px #90caf9;
+    }
+
+    .angry {
+      background: rgba(255, 230, 230, 0.95);
+      border: 3px solid #e53935;
+      color: #b71c1c;
+      box-shadow: 0 0 30px #ef9a9a;
+    }
+
+    .surprise {
+      background: rgba(255, 253, 231, 0.95);
+      border: 3px solid #fdd835;
+      color: #f57f17;
+      box-shadow: 0 0 30px #fff176;
+    }
+
+    .neutral {
+      background: rgba(255, 255, 255, 0.95);
+      border: 3px solid #ccc;
+      color: #333;
+      box-shadow: 0 0 30px #e0e0e0;
+    }
+
+    .emoji {
+      font-size: 1.3em;
+      display: inline-block;
+      animation: bounce 1s infinite ease-in-out;
+    }
+
+    @keyframes bounce {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-10px); }
+    }
+  </style>
+</head>
+<body>
+  <div id="overlay-box" class="neutral"><span class="emoji">💬</span> สวัสดีค่า~ <span class="emoji">🌸</span></div>
+
+  <script>
+    const box = document.getElementById("overlay-box");
+    const ws = new WebSocket("ws://localhost:5678");
+    let hideTimeout;
+
+    ws.onmessage = function(event) {
+      const data = JSON.parse(event.data);
+      const text = data.text || "";
+      const emotion = data.emotion || "neutral";
+
+      box.innerHTML = '<span class="emoji">✨</span> ' + text + ' <span class="emoji">🎀</span>';
+      box.className = emotion + " show";
+
+      clearTimeout(hideTimeout);
+      hideTimeout = setTimeout(() => {
+        box.classList.remove("show");
+      }, 20000);
+    };
+  </script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>RapipiiAI - WebUI</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h1>RapipiiAI WebUI</h1>
+    <form action="/preview" method="post">
+        <textarea name="text" placeholder="ข้อความที่รัปปี้จะพูด..."></textarea><br>
+        <label>เสียง:</label>
+        <select name="voice">
+            {% for voice in voices %}
+            <option value="{{ voice }}">{{ voice }}</option>
+            {% endfor %}
+        </select><br>
+        <button type="submit">Preview</button>
+    </form>
+
+    <h2>Expression Manager</h2>
+    <form action="/update-expression" method="post">
+        <label>Expression:</label>
+        <select name="expression">
+            {% for expr in expressions %}
+            <option value="{{ expr }}">{{ expr }}</option>
+            {% endfor %}
+        </select><br>
+        <input type="text" name="keywords" placeholder="คำกระตุ้น (คั่นด้วย ,)">
+        <button type="submit">อัปเดต</button>
+    </form>
+</body>
+</html>

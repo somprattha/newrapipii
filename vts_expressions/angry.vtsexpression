@@ -1,0 +1,18 @@
+{
+  "expressionFile": "angry.vtsexpression",
+  "active": true,
+  "parameters": [
+    {
+      "id": "ParamAngry",
+      "value": 1
+    },
+    {
+      "id": "ParamBrowDownL",
+      "value": 1
+    },
+    {
+      "id": "ParamEyeOpen",
+      "value": 0.4
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #fdf6f9 0%, #ffe1ec 100%);
+  font-family: 'Sriracha', cursive;
+  overflow: hidden;
+}
+
+#emotionBox {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  font-size: 60px;
+  transition: transform 0.3s ease;
+}
+
+#chatbox {
+  position: absolute;
+  bottom: 5%;
+  left: 5%;
+  width: 90%;
+  max-height: 35%;
+  overflow-y: auto;
+  background: rgba(255, 240, 245, 0.9);
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 0 15px #ff69b4;
+  font-size: 22px;
+  color: #ff1493;
+  animation: floatUp 4s ease-in-out infinite;
+}
+
+@keyframes floatUp {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-5px); }
+  100% { transform: translateY(0); }
+}
+
+.chat-message {
+  margin-bottom: 10px;
+  animation: bubble 0.4s ease-in;
+}
+
+@keyframes bubble {
+  0% { opacity: 0; transform: scale(0.9); }
+  100% { opacity: 1; transform: scale(1); }
+}

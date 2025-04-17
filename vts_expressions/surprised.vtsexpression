@@ -1,0 +1,18 @@
+{
+  "expressionFile": "surprised.vtsexpression",
+  "active": true,
+  "parameters": [
+    {
+      "id": "ParamSurprised",
+      "value": 1
+    },
+    {
+      "id": "ParamMouthOpenY",
+      "value": 1
+    },
+    {
+      "id": "ParamEyeOpen",
+      "value": 1
+    }
+  ]
+}

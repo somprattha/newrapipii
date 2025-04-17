@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rapipii Overlay</title>
+    <style>
+        body {
+            margin: 0;
+            background: transparent;
+            overflow: hidden;
+            font-family: "Kanit", sans-serif;
+        }
+        #overlay-message {
+            position: absolute;
+            top: 40%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: rgba(255, 255, 255, 0.8);
+            color: #333;
+            padding: 20px 30px;
+            border-radius: 20px;
+            font-size: 1.5em;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            transition: opacity 1s ease;
+            opacity: 0;
+        }
+    </style>
+</head>
+<body>
+    <div id="overlay-message"></div>
+    <script>
+        const socket = new WebSocket("ws://localhost:5678");
+
+        socket.onmessage = function(event) {
+            const overlay = document.getElementById("overlay-message");
+            overlay.innerText = event.data;
+            overlay.style.opacity = "1";
+            setTimeout(() => {
+                overlay.style.opacity = "0";
+            }, 5000);
+        };
+    </script>
+</body>
+</html>

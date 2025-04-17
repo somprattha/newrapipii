@@ -1,0 +1,18 @@
+{
+  "expressionFile": "laugh.vtsexpression",
+  "active": true,
+  "parameters": [
+    {
+      "id": "ParamSmile",
+      "value": 1
+    },
+    {
+      "id": "ParamMouthOpenY",
+      "value": 1
+    },
+    {
+      "id": "ParamEyeOpen",
+      "value": 0.8
+    }
+  ]
+}

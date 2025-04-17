@@ -1,0 +1,19 @@
+{
+  "ดีใจ": "happy.vtsexpression",
+  "เสียใจ": "sad.vtsexpression",
+  "เขิน": "blush.vtsexpression",
+  "โกรธ": "angry.vtsexpression",
+  "ตกใจ": "surprised.vtsexpression",
+  "ร้องไห้": "cry.vtsexpression",
+  "รักมาก": "love.vtsexpression",
+  "ง่วง": "sleepy.vtsexpression",
+  "คิด": "thinking.vtsexpression",
+  "ขี้เล่น": "wink.vtsexpression",
+  "ตะลึง": "shocked.vtsexpression",
+  "รำคาญนิดๆ": "annoyed.vtsexpression",
+  "ร้องไห้หนัก": "cry_hard.vtsexpression",
+  "ใจเต้นแรง": "heart_throb.vtsexpression",
+  "อึ้ง": "speechless.vtsexpression",
+  "หลุดขำ": "chuckle.vtsexpression",
+  "อ้อนหนักมาก": "super_cute_beg.vtsexpression"
+}

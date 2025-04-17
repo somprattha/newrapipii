@@ -1,0 +1,6 @@
+{
+  "voice_model": "azure",
+  "style": "cheerful",
+  "rate": "1.0",
+  "pitch": "0"
+}

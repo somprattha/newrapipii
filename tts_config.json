@@ -1,0 +1,11 @@
+{
+  "azure": {
+    "api_key": "7eyk9Mmk8BZDgIQGbRX6PGzpIORbo5UArqofVwdnICgttRr4E0tbJQQJ99BDACqBBLyXJ3w3AAAYACOGALqy",
+    "region": "southeastasia"
+  },
+  "google": {
+    "service_account_json": "my-project-text-to-speech-api-a12a537b611f.json",
+    "project_name": "My Project Text-To-Speech API"
+  },
+  "fallback_tts": "google"
+}

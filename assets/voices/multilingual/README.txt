@@ -1,0 +1,1 @@
+Global language voice presets will go here (e.g., Japanese, Korean, French).

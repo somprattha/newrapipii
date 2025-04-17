@@ -1,0 +1,2 @@
+# ลดเสียงรบกวน
+print('Reducing noise...')

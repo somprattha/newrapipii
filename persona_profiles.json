@@ -1,0 +1,30 @@
+{
+  "tsundere": {
+    "voice_style": "tsundere_blush",
+    "expression": "tsundere_blush"
+  },
+  "fangirl": {
+    "voice_style": "fan_girl",
+    "expression": "fan_girl"
+  },
+  "possessive": {
+    "voice_style": "possessive",
+    "expression": "possessive"
+  },
+  "comfort": {
+    "voice_style": "teary",
+    "expression": "cry_silent"
+  },
+  "mischievous": {
+    "voice_style": "smirk",
+    "expression": "smirk"
+  },
+  "jealous": {
+    "voice_style": "jealous",
+    "expression": "jealous"
+  },
+  "sleepy": {
+    "voice_style": "sleepy",
+    "expression": "sleepy"
+  }
+}

@@ -1,0 +1,25 @@
+/* themes/birthday.css */
+body {
+  background: linear-gradient(to bottom, #fff0f5, #ffe4e1);
+  color: #ff69b4;
+  font-family: 'Kanit', cursive;
+}
+#message {
+  font-size: 1.8em;
+  animation: pop 1s ease infinite alternate;
+}
+@keyframes pop {
+  from { transform: scale(1); }
+  to { transform: scale(1.05); }
+}
+.icon {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  background: url('https://twemoji.maxcdn.com/v/latest/svg/1f389.svg') no-repeat center/cover;
+  animation: float 5s ease-in infinite;
+}
+@keyframes float {
+  from { transform: translateY(100vh); opacity: 1; }
+  to { transform: translateY(-100vh); opacity: 0; }
+}

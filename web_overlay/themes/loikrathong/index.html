@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      margin: 0;
+      background: radial-gradient(ellipse at bottom, #001d3d 0%, #000 100%);
+      overflow: hidden;
+    }
+    .moon {
+      position: absolute;
+      top: 10%;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 80px;
+    }
+    .krathong {
+      position: absolute;
+      bottom: 5%;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 50px;
+      animation: float 3s ease-in-out infinite;
+    }
+    @keyframes float {
+      0%, 100% { transform: translate(-50%, 0); }
+      50% { transform: translate(-50%, -10px); }
+    }
+  </style>
+</head>
+<body>
+  <div class="moon">🌕</div>
+  <div class="krathong">🪷 ลอยกระทง~</div>
+</body>
+</html>
